@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ВКармане</string>
+    <string name="deeplink_error">Невозможно обработать deeplink</string>
+</resources>

@@ -1,0 +1,41 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+obj/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# IDEA specific files
+*.iml
+
+# JNI compiled files
+*.so
+
+.gradle
+/.idea
+.DS_Store
+/build
+/projectFilesBackup
+
+crashlytics-build.properties
+
+gradle.properties
+*.keystore
+*/build
+
+.externalNativeBuild

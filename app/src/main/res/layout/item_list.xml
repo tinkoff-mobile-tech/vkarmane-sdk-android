@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/list_item_background_selector">
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/dark"
+        android:textSize="16sp"
+        tools:text="Some text" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/itemCheck"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="center"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_check"/>
+
+</LinearLayout>

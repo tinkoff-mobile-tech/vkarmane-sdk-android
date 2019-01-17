@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/rouge</color>
+    <color name="colorPrimaryDark">@color/rouge_two</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+    <color name="rouge">#a9203e</color>
+    <color name="rouge_two">#8f1b34</color>
+
+    <color name="white">#ffffff</color>
+    <color name="dark">#333</color>
+    <color name="grey_191">#bfbfbf</color>
+    <color name="bright_grey">#ebebeb</color>
+
+
+    <color name="ripple_color">#26000000</color>
+    <color name="button_disabled">#e0e0e0</color>
+
+</resources>

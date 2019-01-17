@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="me.vkarmane.sdksample">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup">
+        <activity android:name="me.vkarmane.sdksample.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="me.vkarmane.sdksample.ResultActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="vkarmane-sdk-success"
+                    android:scheme="vkarmanesdkexample" />
+                <data
+                    android:host="vkarmane-sdk-error"
+                    android:scheme="vkarmanesdkexample" />
+                <data
+                    android:host="vkarmane-sdk-cancel"
+                    android:scheme="vkarmanesdkexample" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
