@@ -52,7 +52,7 @@ implementation "ru.tinkoff.vkarmane:sdk:$latestVersion"
 
     // 3. Переходим
     val i = Intent(Intent.ACTION_VIEW)
-    i.data = Uri.parse(link)
+    i.data = Uri.parse(vkarmaneLink)
     startActivity(i)
 
     // 4. Получаем и расшифровываем данные изначально сгенерированным `keys.privateKey`
